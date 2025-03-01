@@ -1,0 +1,31 @@
+{
+    "name": "ztws/q-ztws",
+    "description": "Aplikacja quizowa w stylu Kahoot",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "ZTWS",
+            "email": "info@ztws.pl"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "phpmailer/phpmailer": "^6.8",
+        "tecnickcom/tcpdf": "^6.6",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "endroid/qr-code": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
